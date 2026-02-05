@@ -1,0 +1,53 @@
+Foundational Concepts and Basic Programs
+
+
+
+These programs focus on core syntax, variables, operators, and control flow (loops and conditional statements). 
+
+Hello World! The classic first program to understand the print() function.
+
+Add two numbers or find the maximum of two numbers.
+
+Find the factorial or simple/compound interest of a number.
+
+Check if a number is prime or an Armstrong number.
+
+Print all Prime numbers within a given interval.
+
+N-th Fibonacci number calculation.
+
+Print ASCII Value of a character. 
+
+Data Structures (Lists, Strings, etc.)
+
+These examples introduce essential Python data structures and common operations. 
+
+Lists/Arrays:
+
+Sum of all elements in a list, finding the largest/smallest element.
+
+Swapping the first and last elements in a list.
+
+Removing duplicate elements or multiple elements from a list.
+
+Finding the N largest elements from a list.
+
+Strings:
+
+Check if a string is a palindrome.
+
+Reverse words in a given string.
+
+Count the number of matching characters in a pair of strings. 
+
+Searching, Sorting, and More Advanced Topics
+
+For those ready for more challenging problems, GfG offers examples on algorithms and other concepts. 
+
+Sorting Algorithms: Bubble Sort, Insertion Sort, Merge Sort, Quick Sort, etc..
+
+Searching Algorithms: Linear Search and Binary Search (recursive and iterative).
+
+File Handling: Reading from and writing to files.
+
+Object-Oriented Programming (OOP): Understanding classes, objects, inheritance, and polymorphism. 
