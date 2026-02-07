@@ -1,10 +1,11 @@
-s = "Pavan"
-n = 3
-mu = n *2
+s="AFIFA"
+s="KETTLE"
+n=len(s)//2
+mu = len(s)
 valid =True
 for i in range(n):
     l = s[i]
-    r = s[mu-2-i]
+    r = s[mu-1-i]
     if l != r:
         valid =False
 if valid:
