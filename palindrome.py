@@ -1,8 +1,13 @@
 s = "LEVEL"
-ans = ""
-for i in range(len(s)-1,-1,-1):
-    ans = ans + s[i]
-if ans == s:
-    print("It is a palindrome")
+n = 3
+mu = n *2
+valid =True
+for i in range(n):
+    l = s[i]
+    r = s[mu-2-i]
+    if l != r:
+        valid =False
+if valid:
+        print("YES")
 else:
-    print("It is not a palindrome")
+        print("NO")
