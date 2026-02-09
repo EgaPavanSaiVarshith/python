@@ -1,0 +1,6 @@
+def kabali():
+    print("Python")
+    return 10
+    
+macha = kabali()
+print(macha)
