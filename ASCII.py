@@ -1,2 +1,2 @@
-macha = "a"
+macha = "h"
 print(ord(macha))
