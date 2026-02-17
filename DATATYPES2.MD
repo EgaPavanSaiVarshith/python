@@ -1,4 +1,5 @@
 Data Types
+
 Python has various built-in data types that allow us to store different kinds of values. Here’s a brief overview of the main data types:
 
 int (Integer): Represents whole numbers, both positive and negative, without any decimal points. Example: x = 5, y = -42
