@@ -4,4 +4,4 @@ r = len(mat)
 c=len(mat[0])
 
 for j in range(4):
-    print(mat[1][j])
+    print(mat[0][j])
