@@ -25,11 +25,20 @@ c=5
 #             print("-",end="")
 #     print()
 
-r=3
-c=10
+# r=3
+# c=10
+# for i in range(r):
+#     for j in range(c):
+#         print("*",end= "")
+#         if j!=c-1:
+#             print("-",end="")
+#     print()
+
+r=10
+c=3
 for i in range(r):
     for j in range(c):
-        print("*",end= "")
-        if j!=c-1:
-            print("-",end="")
+        print("*",end= "-")
+        # if j!=c-1:
+        #     print("-",end="")
     print()
