@@ -1,4 +1,4 @@
-numbers = [2, 4, 6, 8]
+numbers = [2, 4, 6, 8, 10]
 product = 1
 
 for number in numbers:
