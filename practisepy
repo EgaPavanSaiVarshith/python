@@ -1,10 +1,8 @@
-# li = [ 6 , 8 , 5 , 10 , 2]
-# ans = 0
-# for i in range(len(li)):
-#     val = li[i]
-#     if val > ans:
-#         ans = val
-# print (ans)
+li = [ 6 , 8 , 5 , 10 , 2]
+ans = 0
+for i in range(len(li)):
+    val = li[i]
+    if val > ans:
+        ans = val
+print (ans)
 
-print("Hello",end = " ")
-print("Pavan")
