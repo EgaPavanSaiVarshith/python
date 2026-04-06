@@ -80,11 +80,11 @@ c=3
 for i in range(c):
     temp = 3
     if i==0:
-        temp=3
+        temp=c - 0
     if i==1:
-        temp=2
+        temp=c - 1
     if i==2:
-        temp=1
+        temp=c - 2
     for j in range(temp):
         print("*",end = "")
     print()
