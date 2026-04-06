@@ -89,9 +89,19 @@ c=3
 #         print("*",end = "")
 #     print()
 
-c=3
-for i in range(c):
-    temp = c - i
-    for j in range(temp):
+# c=3
+# for i in range(c):
+#     temp = c - i
+#     for j in range(temp):
+#         print("*",end = "")
+#     print()
+
+r=6
+c = 3
+c1 = r-1
+for i in range(r):
+    for j in range(c1-i):
         print("*",end = "")
+    for k in range(3):
+         print("-",end="")
     print()
