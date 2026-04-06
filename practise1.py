@@ -76,15 +76,22 @@ c=3
 #             print(" ",end="")
 #     print()
 
+# c=3
+# for i in range(c):
+#     temp = 3
+#     if i==0:
+#         temp=c - 0
+#     if i==1:
+#         temp=c - 1
+#     if i==2:
+#         temp=c - 2
+#     for j in range(temp):
+#         print("*",end = "")
+#     print()
+
 c=3
 for i in range(c):
-    temp = 3
-    if i==0:
-        temp=c - 0
-    if i==1:
-        temp=c - 1
-    if i==2:
-        temp=c - 2
+    temp = c - i
     for j in range(temp):
         print("*",end = "")
     print()
