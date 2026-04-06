@@ -62,16 +62,29 @@ c=3
 #             print(" ",end = "")
 #         # if j!=c-1:
 #         #     print(" ",end="")
+# #     print()
+
+# r=4
+# c=15
+# for i in range(r):
+#     for j in range(c):
+#         if i==0 or i==r-1 or j==0 or j==c-1:
+#             print("*",end = "")
+#         else:
+#             print(" ",end = "")
+#         if j!=c-1:
+#             print(" ",end="")
 #     print()
 
-r=4
-c=15
-for i in range(r):
-    for j in range(c):
-        if i==0 or i==r-1 or j==0 or j==c-1:
-            print("*",end = "")
-        else:
-            print(" ",end = "")
-        if j!=c-1:
-            print(" ",end="")
+c=3
+for i in range(c):
+    temp = 3
+    if i==0:
+        temp=3
+    if i==1:
+        temp=2
+    if i==2:
+        temp=1
+    for j in range(temp):
+        print("*",end = "")
     print()
