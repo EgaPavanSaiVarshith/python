@@ -147,12 +147,21 @@ c=3
 #         print("-",end="")
 #     print()
 
+# r=5
+# n=r-1
+# for i in range(r):
+#     for j in range(n-i):
+#         print(" ",end="")
+#     temp = i * 2 + 1 
+#     for k in range(temp):
+#             print("*",end="")
+#     print()
+
 r=5
 n=r-1
 for i in range(r):
-    for j in range(n-i):
+    for j in range(i):
         print(" ",end="")
-    temp = i * 2 + 1 
-    for k in range(temp):
+    for k in range(2*r-1-(2*i)):
             print("*",end="")
     print()
