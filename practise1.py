@@ -126,9 +126,23 @@ c=3
 #          print("*",end="")
 #     print()
 
-c=9
-for i in range(c):
-    temp=c-i
-    for j in range(temp):
-        print("*",end="")
+# c=9
+# for i in range(c):
+#     temp=c-i
+#     for j in range(temp):
+#         print("*",end="")
+#     print()
+
+r=3
+n=r-1
+for i in range(r):
+    for j in range(n-i):
+        print("-",end="")
+    print("Hello",end="")
+    print()
+
+n=5
+for i in range(n):
+    for j in range(n-i):
+        print("-",end="")
     print()
