@@ -157,11 +157,26 @@ c=3
 #             print("*",end="")
 #     print()
 
-r=5
+# r=5
+# n=r-1
+# for i in range(r):
+#     for j in range(i):
+#         print(" ",end="")
+#     for k in range(2*r-1-(2*i)):
+#             print("*",end="")
+#     print()
+
+r=3
 n=r-1
 for i in range(r):
-    for j in range(i):
+    for j in range(n-i):
         print(" ",end="")
-    for k in range(2*r-1-(2*i)):
-            print("*",end="")
+    for j in range(i*2+1):
+        print("*",end="")
+    print()
+for i in range(r-1,-1,-1):
+    for j in range(n-i):
+        print(" ",end="")
+    for j in range(i*2+1):
+        print("*",end="")
     print()
