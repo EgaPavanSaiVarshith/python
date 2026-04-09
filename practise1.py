@@ -133,16 +133,26 @@ c=3
 #         print("*",end="")
 #     print()
 
-r=3
+# r=3
+# n=r-1
+# for i in range(r):
+#     for j in range(n-i):
+#         print("-",end="")
+#     print("Hello",end="")
+#     print()
+
+# n=5
+# for i in range(n):
+#     for j in range(n-i):
+#         print("-",end="")
+#     print()
+
+r=5
 n=r-1
 for i in range(r):
     for j in range(n-i):
-        print("-",end="")
-    print("Hello",end="")
-    print()
-
-n=5
-for i in range(n):
-    for j in range(n-i):
-        print("-",end="")
+        print(" ",end="")
+    temp = i * 2 + 1 
+    for k in range(temp):
+            print("*",end="")
     print()
