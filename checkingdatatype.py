@@ -1,0 +1,5 @@
+print(type(10))
+print(type(5.0))
+print(type("Pavan"))
+print(type(False))
+print(type(10/2))
